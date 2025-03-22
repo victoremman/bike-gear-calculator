@@ -32,7 +32,7 @@ def calcular_melhor_marcha(velocidade, aro, cadencia):
         
         return {
             'melhor_marcha': f"{melhor_marcha[0]}/{melhor_marcha[1]}",
-            'velocidade_atingida': f"{melhor_marcha[2] * cadencia * 3.6 / 60:.1f} km/h"
+            
         }
     
     except Exception as e:
